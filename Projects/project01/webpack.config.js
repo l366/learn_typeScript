@@ -7,6 +7,11 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 // webpack中的所有的配置信息都应该写在module.exports中
 module.exports = {
+  devServer: {
+    host: "127.0.0.1",
+    port: 8088,
+  },
+  mode: "development",
   // 指定入口文件
   entry: "./src/index.ts",
 
