@@ -47,3 +47,12 @@
 
 ![image-20220818211935156](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/4669/202208182119215.png)
 
+### 使用webpack打包 ts 代码
+
+
+
+1.环境配置
+
++ npm init -y 初始化项目
++ cnpm i -D webpack webpack-cli typescript ts-loader 加载最基础的依赖 （ts-loader 的作用是将typescript 和 webpack 整合到一起，方便使用)
++ 
